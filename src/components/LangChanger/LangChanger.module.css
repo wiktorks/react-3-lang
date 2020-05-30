@@ -1,0 +1,24 @@
+.langChanger {
+    background-color: #eee;
+    width: 220px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.langChanger img {
+    width: 70px;
+    height: auto;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all .3s;
+} 
+
+.langChanger img:not(.selected) {
+    background-color: rgba(0, 0, 0, .3);
+    opacity: .5;
+}
+
+.langChanger img.selected {
+    scale: 1.1;
+    -webkit-transform: scale(1.1);
+}
